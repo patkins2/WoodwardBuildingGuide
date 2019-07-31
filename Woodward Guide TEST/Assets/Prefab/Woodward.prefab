@@ -442,7 +442,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4177863255019134}
   m_Layer: 0
-  m_Name: New Prefab
+  m_Name: Woodward
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -463,7 +463,6 @@ Transform:
   - {fileID: 4137590413593990}
   - {fileID: 4823896895267266}
   - {fileID: 4236880830002092}
-  - {fileID: 1998351198711157606}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -495,6 +494,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4780769560879168}
+  - {fileID: 1998351198711157606}
   m_Father: {fileID: 4177863255019134}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -525,11 +525,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7050660072120607901}
   m_LocalRotation: {x: 0.7071057, y: -0, z: -0, w: 0.7071079}
-  m_LocalPosition: {x: 24.779, y: -6.959, z: 30.4}
+  m_LocalPosition: {x: 18.588999, y: 0.89100075, z: 27.82}
   m_LocalScale: {x: 0.22861679, y: 0.18444, z: 0.14568}
   m_Children: []
-  m_Father: {fileID: 4177863255019134}
-  m_RootOrder: 4
+  m_Father: {fileID: 4137590413593990}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 0}
 --- !u!33 &8184930862803502690
 MeshFilter:
