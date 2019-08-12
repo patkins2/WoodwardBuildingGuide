@@ -15,6 +15,10 @@ public class WebURLScript : MonoBehaviour
 
             Application.OpenURL("www.viscenter.uncc.edu");
         }
+        else if (gameObject.name =="KDD")
+        {
+            Application.OpenURL("www.kdd.uncc.edu");
+        }
         else
         {
             Application.OpenURL("www.uncc.edu");
