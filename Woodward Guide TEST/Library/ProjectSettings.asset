@@ -154,6 +154,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.UNCC_CCI_VizLab.WoodwardGuide
+    iOS: com.UNCC-CCI-Viz.Woodward-Guide
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16

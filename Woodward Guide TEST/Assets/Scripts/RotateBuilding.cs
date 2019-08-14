@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RotateBuilding : MonoBehaviour
 {
-    private float rotationRate = 3.0f;
+    public float rotationRate;
 
     void Update()
     {

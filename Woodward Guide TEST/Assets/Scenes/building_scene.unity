@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -422,7 +422,7 @@ RectTransform:
   m_GameObject: {fileID: 426370635}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.2027, y: 2.2027, z: 2.2027}
   m_Children:
   - {fileID: 3909288}
   m_Father: {fileID: 2080094513}
@@ -430,7 +430,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1181, y: 607}
+  m_AnchoredPosition: {x: -925.7, y: 666.2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &426370637
@@ -650,6 +650,7 @@ GameObject:
   - component: {fileID: 892771117}
   - component: {fileID: 892771116}
   - component: {fileID: 892771119}
+  - component: {fileID: 892771120}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -728,7 +729,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 892771115}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ad49d0c89a944bb4d8e976e5c0254e20, type: 3}
   m_Name: 
@@ -736,6 +737,21 @@ MonoBehaviour:
   zoomSpeed: 1000
   minZoom: 0
   maxZoom: 8000
+--- !u!114 &892771120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892771115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7768a9c29800a134caca78e6f393661d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  perspectiveZoomSpeed: 0.5
+  orthoZoomSpeed: 0.5
+  camera: {fileID: 892771117}
 --- !u!4 &1117229158 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4236880830002092, guid: 163b5b6b78221a84aa085000733323a6,
@@ -902,11 +918,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1259863347}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 116bb3bcce1c2b84ca50d4778e3ade3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationRate: 1
 --- !u!114 &1259863350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -914,7 +931,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1259863347}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf277c5fa0d590d45b48957f3903d630, type: 3}
   m_Name: 
