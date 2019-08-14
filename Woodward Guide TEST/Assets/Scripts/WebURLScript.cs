@@ -10,14 +10,14 @@ public class WebURLScript : MonoBehaviour
     {
         if (gameObject.name == "VisLab")
         {
-            //GameObject.Find("Main Camera").transform.position = GameObject.Find("VisLab").transform.position + new Vector3(12, 7, 0);
-            //GameObject.Find("Main Camera").transform.Rotate(-GameObject.Find("VisLab").transform.position, 0.0f); 
+            GameObject.Find("Main Camera").transform.position = GameObject.Find("VisLab").transform.position + new Vector3(12, 7, 0);
+            GameObject.Find("Main Camera").transform.Rotate(GameObject.Find("VisLab").transform.position, 0.0f); 
 
-            Application.OpenURL("www.viscenter.uncc.edu");
+            //Application.OpenURL("www.viscenter.uncc.edu");
         }
         else if (gameObject.name =="KDD")
         {
-            Application.OpenURL("www.kdd.uncc.edu");
+            //Application.OpenURL("www.kdd.uncc.edu");
         }
         else
         {
